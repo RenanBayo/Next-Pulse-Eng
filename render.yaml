@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: meu-app-php
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    branch: main
+    autoDeploy: true
