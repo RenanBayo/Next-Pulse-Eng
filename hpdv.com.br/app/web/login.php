@@ -9,7 +9,7 @@ if (!isset($_SESSION['csrf_token'])) {
 <html lang="pt-br">
 
 <head>
-    <?php require(__DIR__ . '/../layouts/head.php');
+    <?php require(__DIR__ . '/../layouts/head.php');?>
     <link rel="stylesheet" href="../css/login.css">
 
 </head>
